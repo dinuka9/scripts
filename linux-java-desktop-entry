@@ -1,0 +1,14 @@
+## java runtime
+/usr/share/applications/java.desktop
+
+[Desktop Entry]
+Name=Java
+Comment=Java
+GenericName=Java
+Keywords=java
+Exec=java -jar %f
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=application/x-java-archive
+StartupNotify=true
