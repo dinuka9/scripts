@@ -1,0 +1,10 @@
+sudo apt install sysv-rc-conf
+
+sudo cp mysql.server /etc/init.d/mysql
+sudo chmod +x /etc/init.d/mysql
+
+sudo update-rc.d mysql defaults
+
+service mysql start
+service mysql status
+mysql -uroot
